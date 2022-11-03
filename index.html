@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Veja a interpretação de IMC</h1>
+      
+      <table>
+        <tr>
+          <th>IMC</th>
+          <th>Classificação</th>
+          <th>Obesidade(grau)</th>
+        </tr>
+
+        <tr>
+          <td>Menor que 18.5</td>
+          <td>MAGRESA</td>
+          <td>O</td>
+        </tr>
+
+        <tr>
+          <td>Entre 18.5 e 24.9</td>
+          <td>NORMAL</td>
+          <td>O</td>
+        </tr>
+
+        <tr>
+          <td>Entre 25.5 e 29.9</td>
+          <td>SOBREPESO</td>
+          <td>|</td>
+        </tr>
+
+        <tr>
+          <td>Entre 30.0 e 39.9</td>
+          <td>OBESIDADE</td>
+          <td>||</td>
+        </tr>
+
+        <tr>
+          <td>Maior que 40.00</td>
+          <td>OBESIDADE GRAVE</td>
+          <td>|||</td>
+        </tr>
+      </table>
+
+      <form action="POST" id="formulario">
+        <label for="input-teste-1">Peso</label>
+        <input type="text" id="peso" name="peso" />
+
+        <label for="input-teste-2">Altura</label>
+        <input type="text" id="altura" />
+
+        <button type="submit">Enviar</button>
+
+      </form >
+    </section>
+    
+    <script src="./js/main.js"></script>
+  </body>
+</html>
