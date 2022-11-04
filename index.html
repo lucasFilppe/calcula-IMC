@@ -20,7 +20,7 @@
 
         <tr>
           <td>Menor que 18.5</td>
-          <td>MAGRESA</td>
+          <td>ABAIXO DO PESO</td>
           <td>O</td>
         </tr>
 
@@ -31,7 +31,7 @@
         </tr>
 
         <tr>
-          <td>Entre 25.5 e 29.9</td>
+          <td>Entre 25.0 e 29.9</td>
           <td>SOBREPESO</td>
           <td>|</td>
         </tr>
@@ -50,17 +50,19 @@
       </table>
 
       <form action="POST" id="formulario">
-        <label for="input-teste-1">Peso</label>
+        <label for="peso">Peso</label>
         <input type="text" id="peso" name="peso" />
 
-        <label for="input-teste-2">Altura</label>
+        <label for="altura">Altura</label>
         <input type="text" id="altura" />
 
         <button type="submit">Enviar</button>
 
       </form >
+
+      <div id="resultado"></div>
     </section>
     
-    <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

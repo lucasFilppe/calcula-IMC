@@ -10,14 +10,15 @@ body{
     background: green;
     font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
-    line-height: 1.3em
+    line-height: 1.3em;
+    height: 100vh;
 }
 
 .container{
     background: #fff;
     max-width: 700px;
     margin: 50px auto;
-    padding: 20px
+    padding: 10px
 }
 
 form input, form label, form button {
@@ -28,7 +29,7 @@ form input, form label, form button {
 }
 
 form{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 form button {
@@ -56,4 +57,12 @@ table, th, td {
 td {
     margin: 2px auto;
     padding-left: 20px;
+}
+
+.paragrafo-resultado, .erro{
+    background: greenyellow
+}
+
+.erro {
+    background: crimson;
 }
